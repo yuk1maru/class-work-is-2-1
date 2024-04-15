@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="main.js"></script>
+    <title>Классная работа</title>
+</head>
+<body>
+    <div class="container">
+        <label for="lastName">Введите фамилию</label>
+        <input type="text" class="input" id="lastName"><br><br>
+
+        <label for="firstName">Введите имя</label>
+        <input type="text" class="input" id="firstName"><br><br>
+
+        <label for="middleName">Введите отчество</label>
+        <input type="text" class="input" id="middleName"><br><br>
+
+        <label for="phone">Введите номер телефона</label>
+        <input type="text" class="input" id="phone"><br><br>
+
+        <label for="phone">Укажите статус</label>
+        <select name="" id="status" class="input">
+            <option value="студент">Студент</option>
+            <option value="преподователь">Преподователь</option>
+        </select>
+
+        <button onclick="saveData()" class="button" id="saveBtn">Сохранить</button>
+
+        <ul id="resultData"></ul>
+    </div>
+</body>
+</html>
